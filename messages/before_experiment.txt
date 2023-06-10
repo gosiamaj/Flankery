@@ -1,0 +1,4 @@
+Teraz zaczyna się zadanie właściwe, zachęta do pełnej koncentracji, jeśli trzeba, przypomnienie zadania
+lub jak reagować (myszką, strzałkami etc. )
+
+Przyciśnij SPACJĘ by zacząć.
