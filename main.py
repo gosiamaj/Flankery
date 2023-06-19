@@ -172,7 +172,7 @@ def main():
     stim17 = visual.TextStim(win, text='U U U C U U U', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #1
     stim18 = visual.TextStim(win, text='S S S C S S S', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #4
     stim19 = visual.TextStim(win, text='H H H C H H H', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #2
-    stim10 = visual.TextStim(win, text='K K K C K K K', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #2
+    stim20 = visual.TextStim(win, text='K K K C K K K', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #2
     # mask = visual.ImageStim(win, image='mask4.png', size=(conf['STIM_SIZE'], conf['STIM_SIZE']))
 
     
