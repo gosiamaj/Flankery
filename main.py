@@ -153,9 +153,29 @@ def main():
     # Examples:
     fix_cross = visual.TextStim(win, text='+', height=100, color=conf['FIX_CROSS_COLOR'])
     # que = visual.Circle(win, radius=conf['QUE_RADIUS'], fillColor=conf['QUE_COLOR'], lineColor=conf['QUE_COLOR'])
-    # stim = visual.TextStim(win, text='', height=conf['STIM_SIZE'], color=conf['STIM_COLOR'])
+    stim1 = visual.TextStim(win, text='K K K K K K K', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #1
+    stim2 = visual.TextStim(win, text='U U U K U U U', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #1
+    stim3 = visual.TextStim(win, text='H H H K H H H', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #4
+    stim4 = visual.TextStim(win, text='S S S K S S S', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #2
+    stim5 = visual.TextStim(win, text='C C C K C C C', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #2
+    stim6 = visual.TextStim(win, text='H H H H H H H', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #1
+    stim7 = visual.TextStim(win, text='U U U H U U U', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #1
+    stim8 = visual.TextStim(win, text='K K K H K K K', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #4
+    stim9 = visual.TextStim(win, text='S S S H S S S', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #2
+    stim10 = visual.TextStim(win, text='C C C H C C C', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #2
+    stim11 = visual.TextStim(win, text='S S S S S S S', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #1
+    stim12 = visual.TextStim(win, text='U U U S U U U', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #1
+    stim13 = visual.TextStim(win, text='C C C S C C C', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #4
+    stim14 = visual.TextStim(win, text='H H H S H H H', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #2
+    stim15 = visual.TextStim(win, text='K K K S K K K', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #2
+    stim16 = visual.TextStim(win, text='C C C C C C C', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #1
+    stim17 = visual.TextStim(win, text='U U U C U U U', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #1
+    stim18 = visual.TextStim(win, text='S S S C S S S', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #4
+    stim19 = visual.TextStim(win, text='H H H C H H H', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #2
+    stim10 = visual.TextStim(win, text='K K K C K K K', height=conf['STIM_SIZE'], color=conf['STIM_COLOR']) #2
     # mask = visual.ImageStim(win, image='mask4.png', size=(conf['STIM_SIZE'], conf['STIM_SIZE']))
 
+    
     # === Training ===
     show_info(win, join('.', 'messages', 'hello.txt'))
     show_info(win, join('.', 'messages', 'before_training.txt'))
