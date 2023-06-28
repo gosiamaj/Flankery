@@ -314,7 +314,7 @@ def run_training(win, conf, clock, fix_cross, stim_str, warunek, key_press):
                 acc = -1
             break
         if not reaction:
-            reaction_time = 0
+            reaction_time = -1
         core.wait(numpy.random.random() / conf['FRAME_RATE'])
 
     return reaction_time, response, acc, warunek, stim_str
@@ -364,7 +364,7 @@ def run_experiment(win, conf, clock, fix_cross):
                 acc = -1
             break
         if not reaction:
-            reaction_time = 0
+            reaction_time = -1
         core.wait(numpy.random.random() / conf['FRAME_RATE'])
 
     return reaction_time, response, acc, lista[0], lista[1]
