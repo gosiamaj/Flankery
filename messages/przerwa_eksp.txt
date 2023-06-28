@@ -1,0 +1,17 @@
+
+EKSPERYMENT
+
+
+
+Po pojawieniu się liter na ekranie:
+
+
+jeśli środkową literą będzie H lub K wciśnij lewą strzałkę   ←   na klawiaturze
+
+jeśli środkową literą będzie S lub C wciśnij prawą strzałkę   →   na klawiaturze
+
+
+
+
+
+Aby rozpocząć kolejną sesję kliknij spację.
