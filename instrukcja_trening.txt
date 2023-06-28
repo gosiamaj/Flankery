@@ -1,0 +1,27 @@
+INSTRUKCJA WYKONANIA ZADANIA
+
+W trakcie zadania na ekranie będą pojawiać się ciągi liter. Twoim zadaniem jest identyfikacja
+ŚRODKOWEJ LITERY ciągu i ignorowanie liter jej towarzyszących. Po pojawieniu się liter na ekranie:
+
+jeśli środkową literą będzie H lub K wciśnij lewą strzałkę   ←   na klawiaturze
+
+jeśli środkową literą będzie S lub C wciśnij prawą strzałkę   →   na klawiaturze
+
+
+PRZYKŁAD:
+
+Dla ciągu liter S S S K S S S środkowa litera to K, należy nacisnąć klawisz  ←
+
+Dla ciągu liter S S S C S S S środkowa litera to C, należy nacisnąć klawisz  →
+
+
+Przed każdym pojawieniem się liter na ekranie zostanie wyświetlony punkt fiksacji „+”, który wskazuje miejsce,
+gdzie należy skupić wzrok w trakcie badania. Najpierw odbędzie się sesja treningowa, dzięki której będziesz
+mógł/mogła sprawdzić czy dobrze zrozumiałeś/łaś instrukcję zadania. Po każdej udzielonej odpowiedzi
+otrzymasz informację o tym czy była ona poprawna, czy też nie. Następnie zostanie przeprowadzona sesja
+eksperymentalna, składająca się z trzech części oddzielonych przerwami.
+
+
+Aby zakończyć przerwę i rozpocząć kolejną sesję należy kliknąć spację.
+Postaraj się, aby Twoje odpowiedzi były poprawne i udzielane jak najszybciej.
+Pamiętaj, że w dowolnym momencie możesz zrezygnować z udziału w badaniu.
