@@ -1,2 +1,0 @@
-Przerwa, zachęta od krótkiego rozluźnienia, informacja, że w dowolnym
-momencie można kontynuować wciskając spacje. 
