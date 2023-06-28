@@ -1,0 +1,141 @@
+Part_ID,Session,Trial_no,Reaction_time,Pressed_key,Correctness,Congruence,Stimulus
+
+TEST_F_,training,1,665.7585999928415,right,1,N,U U U C U U U
+
+TEST_F_,training,2,325.9896999807097,right,-1,T,H H H H H H H
+
+TEST_F_,training,3,813.8582999818027,left,1,Z,K K K H K K K
+
+TEST_F_,training,4,512.0354000246152,left,1,Z,H H H K H H H
+
+TEST_F_,training,5,210.55570000316948,left,-1,NZ,H H H S H H H
+
+TEST_F_,training,6,-1,None,0,T,S S S S S S S
+
+TEST_F_,training,7,399.54169996781275,right,-1,Z,K K K H K K K
+
+TEST_F_,training,8,642.9879000061192,left,1,Z,K K K H K K K
+
+TEST_F_,training,9,462.04320003744215,right,1,N,U U U S U U U
+
+TEST_F_,training,10,507.2288999799639,right,1,Z,C C C S C C C
+
+TEST_F_,experiment1,1,480.14830000465736,left,1,Z,K K K H K K K
+
+TEST_F_,experiment1,2,632.634500041604,left,1,Z,K K K H K K K
+
+TEST_F_,experiment1,3,393.83970003109425,right,1,Z,C C C S C C C
+
+TEST_F_,experiment1,4,122.49479995807633,left,-1,NZ,H H H C H H H
+
+TEST_F_,experiment1,5,432.27239995030686,left,1,Z,K K K H K K K
+
+TEST_F_,experiment1,6,430.1434999797493,right,1,NZ,H H H S H H H
+
+TEST_F_,experiment1,7,492.94130003545433,left,1,T,H H H H H H H
+
+TEST_F_,experiment1,8,489.9376999819651,left,1,T,K K K K K K K
+
+TEST_F_,experiment1,9,529.8588000005111,left,1,NZ,C C C H C C C
+
+TEST_F_,experiment1,10,377.8930999687873,right,1,T,S S S S S S S
+
+TEST_F_,experiment1,11,452.0799000165425,left,1,NZ,S S S K S S S
+
+TEST_F_,experiment1,12,523.995499999728,right,1,T,S S S S S S S
+
+TEST_F_,experiment1,13,371.1959000211209,left,1,Z,K K K H K K K
+
+TEST_F_,experiment1,14,426.86890001641586,right,1,Z,S S S C S S S
+
+TEST_F_,experiment1,15,628.6382999969646,right,-1,NZ,S S S H S S S
+
+TEST_F_,experiment1,16,475.1916999812238,right,1,NZ,H H H S H H H
+
+TEST_F_,experiment1,17,205.8497000252828,left,1,NZ,C C C H C C C
+
+TEST_F_,experiment1,18,377.1189999533817,left,1,Z,H H H K H H H
+
+TEST_F_,experiment1,19,706.6594999632798,left,1,NZ,S S S H S S S
+
+TEST_F_,experiment1,20,294.26989995408803,left,1,T,H H H H H H H
+
+TEST_F_,experiment2,1,424.59489998873323,right,1,N,U U U C U U U
+
+TEST_F_,experiment2,2,465.24510002927855,left,-1,NZ,H H H S H H H
+
+TEST_F_,experiment2,3,727.181299997028,right,1,NZ,H H H C H H H
+
+TEST_F_,experiment2,4,364.1201000427827,left,1,N,U U U K U U U
+
+TEST_F_,experiment2,5,626.3051999849267,left,1,Z,K K K H K K K
+
+TEST_F_,experiment2,6,693.534699967131,left,1,Z,K K K H K K K
+
+TEST_F_,experiment2,7,378.2993999775499,right,1,Z,S S S C S S S
+
+TEST_F_,experiment2,8,496.84709997382015,left,-1,NZ,K K K S K K K
+
+TEST_F_,experiment2,9,716.5627999929711,right,1,NZ,K K K C K K K
+
+TEST_F_,experiment2,10,533.6529000196606,left,1,NZ,C C C K C C C
+
+TEST_F_,experiment2,11,507.7416999847628,right,1,Z,S S S C S S S
+
+TEST_F_,experiment2,12,510.79190004384145,left,1,NZ,C C C K C C C
+
+TEST_F_,experiment2,13,546.6245000134222,right,1,NZ,K K K C K K K
+
+TEST_F_,experiment2,14,400.2908000256866,right,1,N,U U U S U U U
+
+TEST_F_,experiment2,15,501.84649997390807,left,-1,NZ,H H H C H H H
+
+TEST_F_,experiment2,16,433.9272999786772,left,1,NZ,S S S K S S S
+
+TEST_F_,experiment2,17,433.06979996850714,right,1,Z,S S S C S S S
+
+TEST_F_,experiment2,18,553.3507000072859,right,1,Z,C C C S C C C
+
+TEST_F_,experiment2,19,1794.8403999907896,right,1,Z,S S S C S S S
+
+TEST_F_,experiment2,20,525.450200017076,left,-1,NZ,H H H C H H H
+
+TEST_F_,experiment3,1,449.920299986843,left,1,Z,K K K H K K K
+
+TEST_F_,experiment3,2,385.55110001470894,right,1,T,S S S S S S S
+
+TEST_F_,experiment3,3,493.053299956955,left,1,Z,H H H K H H H
+
+TEST_F_,experiment3,4,540.808699966874,right,1,NZ,H H H S H H H
+
+TEST_F_,experiment3,5,576.3957999879494,left,-1,N,U U U C U U U
+
+TEST_F_,experiment3,6,502.85489996895194,right,1,NZ,H H H C H H H
+
+TEST_F_,experiment3,7,454.7098999610171,right,1,N,U U U S U U U
+
+TEST_F_,experiment3,8,735.5154000106268,left,1,NZ,C C C H C C C
+
+TEST_F_,experiment3,9,532.2042000479996,left,1,Z,K K K H K K K
+
+TEST_F_,experiment3,10,606.7873000283726,right,1,NZ,H H H S H H H
+
+TEST_F_,experiment3,11,499.6112000080757,left,1,Z,K K K H K K K
+
+TEST_F_,experiment3,12,606.3740999670699,left,-1,Z,S S S C S S S
+
+TEST_F_,experiment3,13,650.5359000293538,left,-1,Z,S S S C S S S
+
+TEST_F_,experiment3,14,536.9532000040635,right,1,NZ,H H H S H H H
+
+TEST_F_,experiment3,15,458.15829996718094,right,1,NZ,H H H S H H H
+
+TEST_F_,experiment3,16,449.3326999945566,left,1,Z,H H H K H H H
+
+TEST_F_,experiment3,17,529.7657999908552,right,1,T,C C C C C C C
+
+TEST_F_,experiment3,18,628.2298000296578,right,1,Z,C C C S C C C
+
+TEST_F_,experiment3,19,495.8655000082217,left,1,NZ,C C C H C C C
+
+TEST_F_,experiment3,20,528.7219000165351,right,1,T,S S S S S S S
