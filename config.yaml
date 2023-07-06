@@ -32,4 +32,5 @@ EXIT_KEY: f7
 # Targets grouped by the same response
 TARGET_LETTERS: ['H','K','S','C']
 TARGET_GROUPS: [['H','K'],['S','C']]
+# Last flanker must be neutral
 FLANKERS: ['H','K','S','C','U']
