@@ -124,7 +124,7 @@ def gen_stim(conf) -> List[str]:
         stim_str = (flankers_list[4] + ' ') * 3 + target_list[target_no] + (' ' + flankers_list[4]) * 3
 
     # warunek zgodny:
-    elif warunek_no > 2 and warunek_no < 7:
+    elif warunek == 'Z':
         letter_list: List[str] = conf['TARGET_GROUPS'][group_no]
         stim_str = (letter_list[flanker_no] + ' ') * 3 + letter_list[(flanker_no+1)%2] + (' ' + letter_list[flanker_no]) * 3
 
@@ -197,38 +197,38 @@ def main():
 
     # 4. trial - warunek niezgodny
     target_letter = random.choice([conf['TARGET_GROUPS'][0][1], conf['TARGET_GROUPS'][1][0]])
-    warunek_list[4] = 'NZ'
+    warunek_list[3] = 'NZ'
     if target_letter == conf['TARGET_GROUPS'][0][1]:
         flanker_letter = conf['TARGET_GROUPS'][1][1]
     else:
         flanker_letter = conf['TARGET_GROUPS'][0][0]
-    stim_str_list[4] = (flanker_letter + ' ') * 3 + target_letter + (' ' + flanker_letter) * 3
+    stim_str_list[3] = (flanker_letter + ' ') * 3 + target_letter + (' ' + flanker_letter) * 3
     if target_letter == conf['TARGET_GROUPS'][0][0] or target_letter == conf['TARGET_GROUPS'][0][1]:
-        press_list[4] = conf['REACTION_KEYS'][0]
+        press_list[3] = conf['REACTION_KEYS'][0]
     else:
-        press_list[4] = conf['REACTION_KEYS'][1]
+        press_list[3] = conf['REACTION_KEYS'][1]
 
     # 6. trial - warunek zgodny
     target_letter = random.choice([conf['TARGET_GROUPS'][0][0], conf['TARGET_GROUPS'][1][0]])
-    warunek_list[6] = 'Z'
+    warunek_list[5] = 'Z'
     if target_letter == conf['TARGET_GROUPS'][0][0]:
         flanker_letter = conf['TARGET_GROUPS'][0][1]
     else:
         flanker_letter = conf['TARGET_GROUPS'][1][1]
-    stim_str_list[6] = (flanker_letter + ' ') * 3 + target_letter + (' ' + flanker_letter) * 3
+    stim_str_list[5] = (flanker_letter + ' ') * 3 + target_letter + (' ' + flanker_letter) * 3
     if target_letter == conf['TARGET_GROUPS'][0][0] or target_letter == conf['TARGET_GROUPS'][0][1]:
-        press_list[6] = conf['REACTION_KEYS'][0]
+        press_list[5] = conf['REACTION_KEYS'][0]
     else:
-        press_list[6] = conf['REACTION_KEYS'][1]
+        press_list[5] = conf['REACTION_KEYS'][1]
 
     # 8. trial - warunek neutralny
     target_letter = random.choice(conf['TARGET_LETTERS'])
-    warunek_list[8] = 'N'
-    stim_str_list[8] = (conf['FLANKERS'][4] + ' ') * 3 + target_letter + (' ' + conf['FLANKERS'][4]) * 3
+    warunek_list[7] = 'N'
+    stim_str_list[7] = (conf['FLANKERS'][4] + ' ') * 3 + target_letter + (' ' + conf['FLANKERS'][4]) * 3
     if target_letter == conf['TARGET_GROUPS'][0][0] or target_letter == conf['TARGET_GROUPS'][0][1]:
-        press_list[8] = conf['REACTION_KEYS'][0]
+        press_list[7] = conf['REACTION_KEYS'][0]
     else:
-        press_list[8] = conf['REACTION_KEYS'][1]
+        press_list[7] = conf['REACTION_KEYS'][1]
 
     # Instruction before training
     show_info(conf, win, "instrukcja_trening.txt", "", screen_res[0], conf['INSTRUCTION_SIZE'])
